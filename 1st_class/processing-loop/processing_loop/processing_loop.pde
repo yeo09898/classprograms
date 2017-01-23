@@ -4,7 +4,7 @@ void setup() {
 
 int x = 0, y = 0, dx = 2, dy = 0, dz = 0;
 void draw() {
-  background(255);
+  background(125);
   stroke(0,255,255);
   fill(255,255,0);
   final int RECT_WIDTH = 50, RECT_HEIGHT= 50;
