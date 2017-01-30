@@ -9,11 +9,11 @@
 
 PShape ball;
 void setup() {
-  size(900,700, OPENGL);
+  size(1920,1440, OPENGL);
   noStroke();
-  PImage img = loadImage("mars.jpg");
+  PImage img = loadImage("jupiter.jpg");
   sphereDetail(100);
-  ball = createShape(SPHERE, 240);
+  ball = createShape(SPHERE, 500);
   ball.setTexture(img);
    // the large this number, the better the approximation to a sphere
 }
