@@ -39,12 +39,12 @@ double fibo2(int n) {
   }
 }
 void setup() {
-  for (int i=0; i<=30; i++) {
+  for (int i=0; i<=30; i+=3) {
     print(fact(i), "");
   }
   println();
   println();
-  for (int i=0; i<=30; i++) {
+  for (int i=0; i<=30; i+=3) {
     print(fact2(i), "");
   }
   println();
