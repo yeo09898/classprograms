@@ -26,14 +26,17 @@ void setup() {
   for (float i=1.0; i<=10000; i*=10) {
     println(sum(i));
   }
+  println();
   for (float i=1.0; i<=10000; i*=10) {
-    println(sum(i)*6);
+    println(sqrt(sum(i)*6));
   }
+   println();
   for (float i=1.0; i<=10000; i*=10) {
     println(sum2(i));
   }
+   println();
   for (float i=1.0; i<=10000; i*=10) {
-    println(sum2(i)*6);
+    println(sqrt(sum2(i)*6));
   }
   exit();
 }
