@@ -31,9 +31,9 @@ public class Vec3d {
 	public static double dot(Vec3d m, Vec3d n) {
 		return m.x * n.x + m.y * n.y + m.z * n.z;
 	}
-	
-	public Vec3d neg(){
-		return new Vec3d(-x,-y,-z);
+
+	public Vec3d neg() {
+		return new Vec3d(-x, -y, -z);
 	}
 
 	public String toString() {
@@ -65,7 +65,8 @@ public class Vec3d {
 		Vec3d v6 = Vec3d.plus(v1, v2);
 		System.out.print("v6 = Vec3d.plus(v1,v2)=");
 		System.out.println(v6);
-		// Vec3d v7 = v1.times(v2);   Sorry. professor, I could not find the definition of times for Vector
+		// Vec3d v7 = v1.times(v2); Sorry. professor, I could not find the
+		// definition of times for Vector
 		Vec3d v8 = v1.neg();
 		System.out.print("v8 = v1.neg()=");
 		System.out.println(v8);
