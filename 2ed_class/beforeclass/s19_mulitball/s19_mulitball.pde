@@ -11,8 +11,8 @@ void mouseClicked() {
    println(n);
    x[n]=random(50,width-50);
    y[n]=random(50,height-50);
-   dx[n]=random(-3,3);
-   dy[n]=random(-3,3);
+   dx[n]=random(-6,6);
+   dy[n]=random(-6,6);
 }
 void draw() {
   //background(0);

@@ -42,7 +42,7 @@ public class Vec3d {
 
 	public static void main(String[] args) {
 		Vec3d v1 = new Vec3d(1.0, 2.5, 3.0);
-		Vec3d v2 = new Vec3d(1.5, 1.0, 1.5);
+		Vec3d v2 = new Vec3d(-1.5, 1.0, 1.5);
 		System.out.print("v1=");
 		System.out.println(v1);
 		System.out.print("v2=");
