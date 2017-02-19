@@ -1,0 +1,7 @@
+Name    Mass        Diameter    Rot         Distance
+MERCURY 0.330e24    4879        1407.6      57.9e9
+VENUS   4.87e24     12104       -5832.5     108.2e9
+EARTH   5.97e24     12756       23.9        149.6e9 
+MOON    0.073e24    3475        655.7       0.384e9      
+MARS    0.642e24    6792        24.6        227.9e9
+
