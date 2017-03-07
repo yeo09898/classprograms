@@ -6,8 +6,11 @@ public class read {
 	private static int i = 0;
 	private static int j = 0;
 	private static String[] name =new String[14], Orbits =new String[14];
+	//int[][] t = {{1,2,3},{2,3,1},{3,1,2}};
+
 
 	public static void main(String[] a) {
+		
 		try {
 			String current = new java.io.File(".").getCanonicalPath();
 			System.out.println("Current dir:" + current);
@@ -43,9 +46,9 @@ public class read {
 				dat[i][j] = orbinclin;
 				j = j + 1;
 				i = i + 1;
-				 //System.out.println(na + "\tOrbits " + Or + "\tmass=" +
-				// mass+"\tDiam="+Diam+"\tPerihelion="+Per+"\tAphelion="+Aphelion+"\torbPeriod(days)="+orbPeriod+"\trotationalPeriod(hours)="+rotationalPeriod+"\taxialtilt(deg)="+axialtilt+"\torbinclin(deg)"+
-				// orbinclin);
+				/* System.out.println(na + "\tOrbits " + Or + "\tmass=" +
+				 mass+"\tDiam="+Diam+"\tPerihelion="+Per+"\tAphelion="+Aphelion+"\torbPeriod(days)="+orbPeriod+"\trotationalPeriod(hours)="+rotationalPeriod+"\taxialtilt(deg)="+axialtilt+"\torbinclin(deg)"+
+				 orbinclin);*/
 			}
 			s.close();
 		} catch (Exception e) {

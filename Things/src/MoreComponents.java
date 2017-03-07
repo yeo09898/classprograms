@@ -9,7 +9,6 @@ public class MoreComponents extends JFrame {
 		setSize(w,h);
 		Container c = this.getContentPane();
 		c.setBackground(color);
-		
 		c.setLayout(new GridLayout(1, 4, 5, 5));
 		JTextField f = new JTextField("testing");
 		c.add(f);
